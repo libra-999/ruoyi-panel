@@ -162,6 +162,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
      * 去空格
      */
     public static String trim(String str)
+
     {
         return (str == null ? "" : str.trim());
     }
